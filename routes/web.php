@@ -24,3 +24,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/produtos', 'App\Http\Controllers\ProdutoControlador@index')->name('produtos');
 
 Route::get('/departamentos', 'App\Http\Controllers\DepartamentoControlador@index')->name('departamento');
+
+Route::get('/usuario', function () {
+    return view('usuario');
+});
