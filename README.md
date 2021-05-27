@@ -9,7 +9,7 @@ O projeto é desenvolvido a partir do curso <a href="https://www.udemy.com/cours
 
 ```bash
 # Clone o Repositório
-$ https://github.com/jardelmitermayer/login-laravel.git
+$ git clone https://github.com/jardelmitermayer/login-laravel.git
 ```
 
 ```bash
